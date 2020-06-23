@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+div {
+    border: 5px solid white;
+    width: 200px;
+    height 1O0px;
+    margin: 100px;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.3em;
+    transition: all 0.5s;
+}
+
+div:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    transform: translateX(100px);
+}
