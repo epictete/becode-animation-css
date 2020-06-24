@@ -1,0 +1,92 @@
+$box-red: red;
+$box-grey: #9B9A98;
+$box-width: 350px;
+$title-margin: 8px;
+$font-weight: 300;
+
+body {
+    background-color: #F2F2F2;
+    font-family: helvetica, sans-serif;
+}
+
+.box {
+    width: $box-width;
+    background-color: white;
+    position: relative;
+    border: 1px solid black;
+    margin: 50px;
+    font-weight: 300;
+}
+
+img {
+    width: $box-width;
+}
+
+.date {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    // background-color: $box-red;
+    color: white;
+    // border-radius: 50%;
+    text-align: center;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: $box-red;
+    border-radius: 50%;
+}
+
+section {
+    position: relative;
+    padding: 20px 30px 10px 30px;
+}
+
+.tab {
+    position: absolute;
+    top: -35px;
+    left: 0;
+    background-color: $box-red;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: $font-weight;
+    margin-bottom: $title-margin;
+}
+
+h3 {
+    color: $box-red;
+    font-weight: $font-weight;
+    margin-top: $title-margin;
+}
+
+article {
+    text-align: justify;
+    line-height: 1.5em;
+    color: $box-grey;
+    margin-top: 30px;
+    font-weight: $font-weight;
+}
+
+.bottom {
+    display: flex;
+    color: $box-grey;
+    font-weight: $font-weight;
+    p {
+        margin-right: 15px;
+    }
+    i {
+        margin-right: 3px;
+    }
+}

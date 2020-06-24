@@ -1,0 +1,89 @@
+body {
+  background-color: #F2F2F2;
+  font-family: helvetica, sans-serif;
+}
+
+.box {
+  width: 350px;
+  background-color: white;
+  position: relative;
+  border: 1px solid black;
+  margin: 50px;
+  font-weight: 300;
+}
+
+img {
+  width: 350px;
+}
+
+.date {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  color: white;
+  text-align: center;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+section {
+  position: relative;
+  padding: 20px 30px 10px 30px;
+}
+
+.tab {
+  position: absolute;
+  top: -35px;
+  left: 0;
+  background-color: red;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-bottom: 8px;
+}
+
+h3 {
+  color: red;
+  font-weight: 300;
+  margin-top: 8px;
+}
+
+article {
+  text-align: justify;
+  line-height: 1.5em;
+  color: #9B9A98;
+  margin-top: 30px;
+  font-weight: 300;
+}
+
+.bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #9B9A98;
+  font-weight: 300;
+}
+
+.bottom p {
+  margin-right: 15px;
+}
+
+.bottom i {
+  margin-right: 3px;
+}
+/*# sourceMappingURL=style.css.map */
